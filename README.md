@@ -5,7 +5,7 @@ Neste projeto, temos um texto no arquivo message.txt que será criptografado ou 
 
 ## Requisitos do projeto
 
-Para rodar este jogo, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+Para rodar esta aplicação, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
 [Git](https://git-scm.com), [Python + pip](https://www.python.org/downloads/) e [virtualenv](https://virtualenv.pypa.io/en/latest/).
 
 ## Execute o projeto
