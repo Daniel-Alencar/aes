@@ -1,9 +1,36 @@
-## Instalar dependências
+## Projeto
+O projeto é uma iniciativa do uso de criptografia com python utilizando o algoritmo AES. A criptografia AES emprega um tamanho de chave variável de 128, 192 ou 256 bits com um tamanho de bloco fixo de 128 bits. É uma técnica de criptografia rápida e eficaz que pode ser usada em muitos aplicativos diferentes. Ataques de força bruta e criptografia diferencial não podem quebrar a criptografia AES.
 
-Execute o comando abaixo:
+Neste projeto, temos um texto no arquivo message.txt que será criptografado ou decriptogrado e um arquivo de saída com o resultado será escrito.
+
+## Requisitos do projeto
+
+Para rodar este jogo, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com), [Python + pip](https://www.python.org/downloads/) e [virtualenv](https://virtualenv.pypa.io/en/latest/).
+
+## Execute o projeto
+
+Execute os comandos abaixo:
+```bash
+# Clone este repositório
+$ git clone https://github.com/Daniel-Alencar/aes
+
+# Acesse a pasta do projeto no terminal/cmd
+$ cd aes
+
+# Crie um ambiente virtual para instalar as dependências
+$ virtualenv myENV
+
+# Entre no ambiente virtual
+$ source myENV/bin/activate
+
+# Instale as dependências
+$ pip3 install -r requirements.txt
+
+# Execute a aplicação
+$ python3 aes.py
 ```
-pip3 install -r requirements.txt
-```
+
 ## Passo-a-passo
 
 - Utilize o comando "python3 aes.py" para inicializar o programa
